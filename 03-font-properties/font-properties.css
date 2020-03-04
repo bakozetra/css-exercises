@@ -4,5 +4,80 @@
   Property description
 */
   /* Property example with a value */
+/* font family containe font mane and generic font family name.For font name ,we have to use more than one words, and we mst put quotes on the value.Generic font family name is fallback for when preceding font families are not recognised   */
+font{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*font size
+The font-size property specifies the size ,or height of the font.It  can have an affectation with font and  in value. */
+font-size{
 
 }
+/*Font weight
+Font-weight is meant for setting the weight (boldness) of the font.*/
+p {
+  font-weight: lighter;
+}
+/* Font style
+The font-style property allows you to make text appear italicized. This property accepts one of three possible values: normal , italic , and oblique .*/
+p{
+  font-style: oblique;
+}
+/* font height The line-height property defines the amount of space above and below inline elements.*/
+/*example */
+p {
+  line-height: 1.5;
+}
+/* font variant The font-variant property allows you to change the targeted text to small caps.Small caps makes the letter into uppercase.
+/* example*/
+p:first-line {
+  font-variant: small-caps;
+}
+/*Font stretch
+The font stretch property selects a normal, condensed, or expanded face from a font.*/
+p{
+  font-stretch: ultra-condensed;
+}
+/*font size adjust
+ This can be helpful for legibility of small text, especially when the font in use is unpredictable.*/
+p{
+  font-size-adjust: initial;
+}
+/* font synthises
+ The font-synthesis CSS property controls which missing typefaces, bold or italic, may be synthesized by the browser.*/
+
+/*letter spacing
+The letter-spacing CSS property sets the spacing behavior between text characters.It makes space between two line.*/
+
+
+/*word spacing
+The word-spacing CSS property sets the length of space between words and between tags.That means space between two words */
+
+/*tex align
+The text-align property in CSS is used for aligning the inner content of a block element.*/
+
+
+/*text decoration
+Text Decoration is a module of CSS that defines features relating to text decoration, such as underlines, text shadows, and emphasis marks.*/
+
+/* text decoration line
+The text-decoration-line CSS property sets the kind of decoration that is used on text in an element, such as an underline or overline.*/
+/*text decoration style
+The text-decoration-style CSS property sets the style of the lines specified by text-decoration-line. The style applies to all lines that are set with text-decoration-line.
+*/
+/* text decoration  color
+The text-decoration-color CSS property sets the color of decorations added to text by text-decoration-line.
+*/
+/*text ident
+The text-indent property in CSS is used to define the indentation of the first line in each block of text. It also take negative values. It means if the value is negative then the first line will be indented to the left.
+*/
+/* text transform
+The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized
+*/
+
+/* vertical aline
+The vertical-align property in CSS controls how elements set next to each other on a line are lined up. img { vertical-align: middle; } In order for this to work, the elements need to be set along a baseline.
+*/
+/* white space
+white-space is a CSS property that helps control how whitespace and line breaks within an element's text are treated. The white-space property can take these values: ... The text wraps to the next line when needed.
+*/
