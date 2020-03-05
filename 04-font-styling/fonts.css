@@ -59,5 +59,9 @@ small {
   font-family: monospace;
 }
 
-
-
+#section_fantasy {
+  font-family: fantasy;
+}
+#section_cursive {
+  font-family: cursive;
+}
