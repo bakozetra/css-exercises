@@ -6,3 +6,79 @@
     /* Property example with a value */
 
   }
+/* color The <color> CSS data type represents a color in the sRGB color space. A <color> may also include an alpha-channel transparency value, indicating how the color should composite with its background.*/
+/* example */
+
+p{
+  color: cyan;
+}
+/*background-color
+*/
+
+
+/*background-image
+The background-color property sets the background color of an element. The background of an element is the total size of the element, including padding and border (but not the margin).
+Background color for tooltip controls. Should be used with the InfoText foreground color
+*/
+
+p{
+background-image:url(andromba.jpg);
+
+/*background-repeat
+The background-repeat property sets if/how a background image will be repeated. By default, a background-image is repeated both vertically and horizontally. Tip: The background image is placed according to the background-position property.
+*/
+
+p{
+  background-repeat: repeat ;
+}
+
+/*background-position
+background-position is a CSS property allows us to define where a background image should be positioned within an element. The background-position property can take length, percentage or keyword values. The available keywords are top, bottom, right, left and center.
+*/
+
+p{
+  background-position: left;
+}
+
+/*background-attachment
+The background-attachment CSS property sets whether a background image's position is fixed within the viewport, or scrolls with its containing block
+*/
+
+p{
+  background-attachment: scroll;
+}
+
+/*background-clip
+The background-clip property specifies the area within which the background is painted.
+*/
+
+p{
+  background-clip: content-box;
+}
+
+/*background-origin
+The background-origin property specifies the origin position (the background positioning area) of a background image. Note: This property has no effect if background-attachment is "fixed.
+*/
+
+p{
+  background-origin: padding-box;
+}
+
+/*background-size
+The background-size CSS property sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space.
+*/
+
+p{
+  background-size: cover;
+}
+
+/*box-shadow
+The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.
+*/
+
+p{
+  box-shadow: yellow;
+}
+
+
+
