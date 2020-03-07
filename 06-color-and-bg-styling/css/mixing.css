@@ -13,28 +13,45 @@ background-size
   background-image: url(../images/bubble.png), url(../images/coral-reef.png);
   background-size: 700px;
 }
-/*Henry likes living on the open sunny plains of Southern Africa. Add some grass to his environment.
-Find and add all the other relevant images.*/
+/*Henry likes living on the open sunny plains of Southern Africa. Add some grass to his environment. Find and add all the other relevant images.*/
 
-#big_bird {
-  background-color:rgb(30, 204, 111);
-  background-repeat:no-repeat;
-  background-position:topright;
-  background-image:url(../images/sun.png);
+#big_bird{
+  background-image:
+                    url('../images/grass-tile.png'),
+                    url('../images/grass-clump.png'),
+                    url('../images/grass-left.png');
+  background-position: left,right,center;
+  background-repeat: repeat-x;
   background-size: 400px;
 }
+.image {
+  background-image: url('../images/sun.png');
+  background-color:rgb(228, 235, 135);
+  background-repeat: no-repeat;
+  background-position:right,bottom,top;
+  background-size: 400px;
+    }
 
-.bird {
-  background-image:url(../images/grass-clump.png),
-                   url(../images/grass-left.png),
-                   url(../images/grass-tile.png);
-  background-position: unset;
-  background-repeat: repeat;
-}
+/*Render a beach scene for Lu-Seal. Add some palms in the right places. Find and add all the other relevant images.*/
 
+#lu_seal {
+  background-image:
+                    url('../images/crab.png'),
+                    url('../images/beach-ball.png');
 
-
-
+  background-repeat:inherit;
+  background-position: bottom;
+  background-size: 300px;
+    }
+.imag {
+  background-image:url('../images/beach-ball.png'),
+                    url('../images/palm-2.png'),
+                     url('../images/palm.png');
+  background-position:right;
+  background-size: 400px;
+  background-repeat:repeat-x;
+  background-color:rgb(135, 142, 235);
+   }
 
 
 
