@@ -6,37 +6,50 @@ background-position
 background-repeat
 background-size
 */
-.dory_background {
-  background-color: cornflowerblue;
-  background-repeat: round;
-  background-position: center;
-  background-image: url(../images/bubble.png), url(../images/coral-reef.png);
-  background-size: 700px;
+#seref-1 {
+
+  background-image: url('../images/bubble.png'),
+                    url('../images/crab.png'),
+                    url('../images/coral-reef.png')
+                    linear-gradient(top,skyblue 40%,grey 50%);
+  background-size: 10px,
+                   20px,
+                   30px;
+  background-repeat:no-repeat;
+
+  background-position:20px
+                      30px,
+                      40px;
 }
 /*Henry likes living on the open sunny plains of Southern Africa. Add some grass to his environment. Find and add all the other relevant images.*/
 
-#big_bird{
-  background-image:
-                    url('../images/grass-tile.png'),
-                    url('../images/grass-clump.png'),
-                    url('../images/grass-left.png');
-  background-position: left,right,center;
-  background-repeat: repeat-x;
-  background-size: 400px;
-}
-.image {
-  background-image: url('../images/sun.png');
-  background-color:rgb(228, 235, 135);
-  background-repeat: no-repeat;
-  background-position:right,bottom,top;
-  background-size: 400px;
-    }
+#big_bird {
+  background-image:url('../images/grass-clump.png'),
 
+                    url('../images/grass-left.png'),
+                    url('../images/grass-tile.png'),
+
+
+
+                    url('../images/sun.png'),
+                    linear-gradient(0deg,grey 20%,#d3dfaa 60%,rgb(229, 255, 0) 70%,rgb(13, 177, 199) 80%,skyblue 0%);
+  background-position: right,
+                       right,
+                       left,
+                       top;
+  background-repeat:
+                    no-repeat;
+
+  background-size:50% 50%,/*grass-title*/
+                  50% 50%,/*grass-clump*/
+                  90% 40%,/*gras-lift*/
+                  10% 20%,/*sun*/
+                  100%
+}
 /*Render a beach scene for Lu-Seal. Add some palms in the right places. Find and add all the other relevant images.*/
 
 #lu_seal {
   background-image:
-                    url('../images/crab.png'),
                     url('../images/beach-ball.png');
 
   background-repeat:inherit;
