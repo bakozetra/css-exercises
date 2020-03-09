@@ -15,4 +15,57 @@
   - Why would we use `visibility: visible;`?
 
 */
+/*opacity The opacity CSS property sets the opacity of an element.
+ Opacity is the degree to which content behind an element is hidden
+ ,and is the opposite of transparency.
+ Opacity applies to the all element as a whole,including its content.
+ A stacking context is formed, anywhere in the document, by any element in the following scenarios.
+ Using opacity with a value other than 1 places the element in a new stacking context.
+ */
+
+
+/*example*/
+.light{
+  opacity: 0;
+}
+/* display The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.*/
+/* inline The element generates one or more inline element boxes that do not generate line breaks before or after themselves. In normal flow, the next element will be on the same line if there is space*/
+/*example*/
+/*block The element generates a block element box, generating line breaks both before and after the element when in the normal flow.*/
+/* Using a display value of none on an element will remove it from the accessibility tree. This will cause the element and all its descendant elements to no longer be announced by screen reading technology.*/
+/*example*/
+ .p{
+   display: inline;
+  }
+#experience-1 {
+   display: block;
+}
+#experience-2 {
+  display: none;
+}
+
+/*The visibility CSS property shows or hides an element without changing the layout of a document. The property can also hide rows or columns in a <table>.
+ For visibility  The element box is visible.
+ Descendants of the element will be visible if they have visibility set to visible. The element cannot receive focus (such as when navigating through tab indexes).
+ we can use collapse in table .
+*/
+/*example*/
+.visible{
+visibility: visible;
+}
+.p{
+  visibility: hidden;
+}
+.collapse {
+  visibility: collapse;
+}
+
+table {
+  border: 1px solid red;
+}
+
+td {
+  border: 1px solid gray;
+}
+
 
