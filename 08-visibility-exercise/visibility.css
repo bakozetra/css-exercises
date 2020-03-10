@@ -1,0 +1,37 @@
+ a[href="#/about"] {
+      visibility: hidden;
+  }
+
+a[href="#/contact"] {
+    visibility: hidden;
+}
+
+tr td[data-bg-color="yellow"] {
+      display: none;
+}
+
+tr [data-bg-color="blue"] {
+     display: none;
+}
+
+tr:nth-child(2n) {
+  display:none;
+}
+
+ span {
+  display: none;
+}
+/* Use only opacity or background-color: rgba() to make the spans match the gradient above it.
+
+Take note: It's important in this exercise to use your Browser's DevTools / Inspector to get the values you need.
+
+Can you do it in one selector, with only one property?<div id="opacity-canvas">
+        <samp id="gradient"></samp>*/
+
+span {
+    opacity:0.5;
+ }
+
+
+
+
