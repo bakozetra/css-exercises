@@ -5,3 +5,55 @@
   */
     /* Property example with a value */
   }
+  /*
+ Box model is design and   it can show the shape of  box .It consists of margine , a padding  , a border , a content box.
+ It can follow this order it starts on the middle .
+ You can see the content box which we going to put some words or like a title and then padding which decorate or make the box thicker ,border decorates the padding and so on.
+*/
+
+/*
+  Content box is a box which can put the words .The origin of the  content box  is on the right corner  of the box .
+*/
+/*example*/
+.content-box {
+  content: icon;
+  width: 50px;
+  height:50px ;
+  background-color: bisque;
+}
+/*
+  padding-box
+*/
+/*example*/
+.padding-box {
+  width: 50px;
+  height:50px ;
+  padding: 10px 50px 20px;
+  background-color: cyan;
+}
+/*
+  border-box
+*/
+/*example*/
+.border{
+
+}
+/*Example of margine*/
+.margine-1{
+  margin: auto;
+  background:magenta;
+  width: 66%;
+}
+/*Example of padding*/
+.padding-1{
+  padding: 20px;
+  background-color: lime;
+}
+/*Example of border*/
+border-1{
+
+  border: 1rem solid;
+}
+
+
+
