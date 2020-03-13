@@ -1,0 +1,75 @@
+
+ header{
+  padding: 1rem;
+  margin: 1rem auto;
+
+}
+
+ h1{
+   padding: 1rem;
+   border: 1rem solid;
+
+
+}
+
+table{
+   border: 0rem solid;
+   padding: 1rem;
+   margin: 0rem;
+   width: 100%;
+}
+ tr:first-child td:nth-child(1) span{
+  border-bottom:1rem solid;
+  padding-right: 1rem ;
+ }
+
+  tr:first-child td:nth-child(2) span{
+   border-bottom:1rem solid;
+    padding: 0rem 1rem 0rem 1rem ;
+
+  }
+  tr:first-child td:nth-child(3) span{
+    border-bottom: 1rem solid;
+    padding-left: 1rem;
+  }
+  tr:nth-of-type(2n) td:nth-child(1) span{
+    border-top: 1rem solid;
+    border-bottom: 1rem solid;
+    padding-right: 1rem ;
+  }
+tr:nth-of-type(2n) td:nth-child(2) span{
+  border-top: 1rem solid;
+  border-bottom: 1rem solid;
+  padding-left: 1rem;
+  padding-right: 1rem ;
+}
+
+tr:nth-last-of-type(2n) td:nth-child(3) span{
+ border-top: 1rem solid;
+ border-bottom: 1rem solid;
+ padding-left: 1rem;
+}
+tr:last-child :nth-last-child(1) span{
+  border-top: 1rem solid;
+  padding-left: 1rem;
+}
+tr:last-child :nth-last-child(3) span{
+  border-top: 1rem solid;
+  padding-right: 1rem;
+}
+tr:last-child :nth-last-child(2) span{
+  border-top: 1rem solid;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer{
+  margin: 1rem auto;
+  padding: 1rem;
+}
+span{
+  margin: 1rem solid;
+  display:block;
+  border: 1rem solid;
+}
+
