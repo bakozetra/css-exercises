@@ -1,4 +1,11 @@
-
+/*body > header > h1{
+      border:solide 1rem;
+      margin-iline-star:1rem;
+      margin-iline-end:1rem
+    }*/
+    body{
+      margin: 1rem;
+    }
  header{
   padding: 1rem;
   margin: 1rem auto;
@@ -8,9 +15,7 @@
  h1{
    padding: 1rem;
    border: 1rem solid;
-
-
-}
+ }
 
 table{
    border: 0rem solid;
