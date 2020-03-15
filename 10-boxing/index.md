@@ -4,7 +4,7 @@ Here's another puzzle for you!
 
 I want you to make `boxes.html` look like the following:
 
-![](boxes.png)
+![](boxes.png)x
 
 ## Take note
 
@@ -22,3 +22,4 @@ Here's the tricky bit, you can only use whole `rem`s as units (No decimals!) and
 - `padding` (and longhand properties)
 - `margin` (and longhand properties)
 - `display`
+  

@@ -1,0 +1,24 @@
+/*1 Inheritance is a root of CSS and It works with html markup (inherit properties) which are from their parent
+  elements and and pass them on to their children.*/
+ /*1 When applied to an element in a document, a property with the value
+  'inherit' will use the same value as the parent element has for that property. The background colour
+  of the div element is white, because the background-color property is set to white.*/
+/*
+Here below is a list without the aural-oriented properties, now including CSS3 properties.
+border-collapse.
+border-spacing.
+caption-side.
+color.
+cursor.
+direction.
+empty-cells.
+font-family.
+
+*/
+/*currentColor is useful when you want a certain color to be consistent in an element.
+For example, if you want an element to have a border color that’s the same as the element’s text color,
+using currentColor makes
+ a lot of sense because then if you decide the main text color you can change the value at only one place*/
+/*If used by a site's own styles (the author origin), revert rolls back the property's cascaded value to the user's custom style, if one exists; otherwise, it rolls the style back to the user agent's default style.
+If used in a user's custom stylesheet, or if the style was applied by the user (the user origin), revert rolls back the cascaded value to the user agent's default style.
+If used within the user agent's default styles, this keyword is functionally equivalent to unset.*/
