@@ -1,0 +1,34 @@
+/*
+the special element is ::first-line and if  we use this element <p> is the speciale element.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*To use a CSS counter, it must first be initialized to a value with the counter-reset property (0 by default). The same property can also be used to change its value to any specific number.
+ Once initialized, a counter's value can be increased or decreased with counter-increment.
+  The counter's name must not be "none", "inherit", or "initial"; otherwise the declaration is ignored.
+  The counter-reset property is used to reset a CSS counter to a given value. It is part of the CSS counter module which is part of the generated content, automatic numbering, and lists CSS2*/
+
+/*To reset the counter, a knob is located on the side. This knob turns all the rings which are displaying the same number (usually zero). When the number displayed reaches the number on the remaining rings, then they will turn too, until the display is reset back to 0000.*/
+
+/*
+CSS counters let you adjust the appearance of content based on its location in a document. For example, you can use counters to automatically number the headings in a webpage. Counters are, in essence, variables maintained by CSS whose values may be incremented by CSS rules to track how many times they're used.*/
+
+/*
+list-style	Sets all the properties for a list in one declaration
+list-style-image	Specifies an image as the list-item marker
+list-style-position	Specifies the position of the list-item markers (bullet points)
+list-style-type	Specifies the type of list-item marker
+
+Anything added to the <ol> or <ul> tag, affects the entire list, while properties added to the <li> tag will affect the individual list items
+*/
+/*there are two type of bullet style :list-style-tipe and list style*/
