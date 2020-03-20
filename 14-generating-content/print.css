@@ -1,6 +1,17 @@
 /* Styles for all mediums go here */
-@media all {
-
+@media screen {
+  a::after{
+    content: "[" attr(href) "]";
+    word-break: break-word;
+  }
+  abbr::after{
+    content:"[" attr(title)"]";
+    word-break: break-word;
+  }
+  blockquote::after{
+  content: "["attr(cite)"]";
+  word-break: break-word;
+}
 }
 
 /* Only styles for printers please */
