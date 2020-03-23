@@ -1,0 +1,25 @@
+body {
+  border: 1px solid;
+  width: 600px;
+ display: table;
+}
+
+main {
+  table-layout: auto;
+}
+
+ h2 {
+  table-layout: auto;
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 100px;
+}
+
+section{
+  table-layout: fixed;
+  display: table;
+  border-spacing: 1rem;
+}
+
+
+
