@@ -1,0 +1,65 @@
+/*<div class="example">
+        <ol class="progress_indicator">
+          <li><a href="#/steps/1/"><span class="a11y">Go back to </span>Getting started</a></li>
+          <li><b><span class="a11y">You are here: </span>Edit your profile</b></li>
+          <li><span><span class="a11y">Up next: </span>Confirm your changes</span></li>
+          <li><span><span class="a11y">Fourth step: </span>Save</span></li>
+        </ol>
+      </div>*/
+/*<div class="container">
+      <ul class="progressbar">
+          <li class="active">login</li>
+          <li>choose interest</li>
+          <li>add friends</li>
+          <li>View map</li>
+  </ul>*/
+
+
+    .progress_indicator{
+        counter-reset: step;
+    }
+    .progress_indicator li {
+        list-style-type: none;
+        width: 25%;
+        float: left;
+         font-size: 12px;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        color: #7d7d7d;
+    }
+    .progress_indicator li:before {
+        width: 30px;
+        height: 30px;
+        content: counter(step);
+        counter-increment: step;
+        line-height: 30px;
+        border: 2px solid #7d7d7d;
+        display: block;
+        text-align: center;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .progress_indicator li:after {
+        width: 100%;
+        height: 2px;
+        content: '';
+        position: absolute;
+        background-color: #7d7d7d;
+        top: 15px;
+        left: -50%;
+        z-index: -1;
+    }
+    .progress_indicator li:first-child:after {
+        content: none;
+    }
+    .progress_indicator li a {
+        color: green;
+    }
+    .progress_indicator li:before {
+        border-color:red;
+    }
+    .progress_indicator li + li:after {
+        background-color: #55b776;
+    }
