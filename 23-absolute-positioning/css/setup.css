@@ -33,7 +33,7 @@ section + section {
 }
 
 .bar {
-  fill: gold;
+  fill: rgb(197, 177, 66);
 }
 
 section header svg {

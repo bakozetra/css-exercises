@@ -1,54 +1,34 @@
-/*
-<div class="example">
-        <div class="container">
-          <svg class="circle" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="50"></circle>
-          </svg>
-          <svg class="circle" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="50"></circle>
-          </svg>
-          <svg class="circle" viewBox="0 0 100 100">
-            <circle cx="50 cy="50" r="50"></circle>
-          </svg>
-          <svg class="circle" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="50"></circle>
-          </svg>
-        </div>*/
-
   section:nth-of-type(2) div:nth-child(2) {
-    overflow: hidden;
-    height: 187px;
-    width: 194px;
-
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  position: relative;
   }
+
 section:nth-of-type(2) .container> .circle:first-child {
-  position: relative;
-    height: 217px;
-    top: -91px;
-    width: 115px;
-    right: -7px;
-    left: 91px;
+  position: absolute;
+  top: 102px;
+  width: 190px;
+  left: 101px;
 }
+
 section:nth-of-type(2) .container >  .circle:nth-of-type(2){
-  position: relative;
-    /* height: 130px; */
-    top: -273px;
-    right: 34px;
-    width: 126px;
+  position: absolute;
+  top: -87px;
+  right: 99px;
+  width: 190px;
 }
 
 section:nth-of-type(2) .container >  .circle:nth-of-type(3){
-  position: relative;
-    width: 158px;
-    top: -283px;
-    right: 65px;
-
+  position: absolute;
+  width: 190px;
+  top: 102px;
+  right: 99px;
 }
 
 section:nth-of-type(2) .container >  .circle:nth-of-type(4) {
-  position: relative;
-  height: 155px;
-  top: -441px;
-  left: 88px;
-  right: 241px;
+  position: absolute;
+  height: 190px;
+  top: -88px;
+  right: -91px;
 }
