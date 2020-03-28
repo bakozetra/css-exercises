@@ -1,4 +1,4 @@
-  section:nth-of-type(2) div:nth-child(2) {
+ /* section:nth-of-type(2) div:nth-child(2) {
   overflow: hidden;
   height: 200px;
   width: 200px;
@@ -32,3 +32,55 @@ section:nth-of-type(2) .container >  .circle:nth-of-type(4) {
   top: -88px;
   right: -91px;
 }
+*/
+section:nth-of-type(2) div:nth-child(2) {
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  }
+
+  section:nth-of-type(2) .container> .circle:first-child{
+    width: 200px;
+    right: 50%;
+    bottom: 50%;
+    position: absolute;
+  }
+
+  section:nth-of-type(2) .container >  .circle:nth-of-type(2) {
+   width: 200px;
+   right: 50%;
+   bottom: -50%;
+   position: absolute;
+  }
+
+  section:nth-of-type(2) .container >  .circle:nth-of-type(3) {
+  width: 200px;
+  left: 50%;
+  bottom: 50%;
+  position: absolute;
+  }
+
+  section:nth-of-type(2) .container >  .circle:nth-of-type(4) {
+    width: 200px;
+    left: 50%;
+    bottom: -50%;
+    position: absolute;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
