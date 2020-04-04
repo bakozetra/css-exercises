@@ -2,8 +2,20 @@ footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: center;
+  display: flex;
+  flex-flow: row-reverse ;
+
 }
 
 footer p {
   color: #999;
+  justify-content: center;
+  display: flex;
 }
+
+footer ul li {
+   display: inline-block;
+   margin-left: 10px;
+}
+
