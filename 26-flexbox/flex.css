@@ -1,0 +1,19 @@
+/*What is the order of property values in the shorthand `flex` property? i.e. Given… `flex: 2 1 auto`,
+ what does the `2`, `1` and `auto` represent?*/
+
+/* 1.a)the order  of property values in the shorthand flex property is flex grow and flex shrink.
+    2:flex grow and 1:flex shrink.
+
+   1.b)-flex-wrap:wrap
+       -flex-flow:row
+
+   1.c)-align-content is  for the content around the  box that means the alingn-content  can not touch the box inside of the content.
+       -align-item is for the box inside of the content .It  makes the shape of the box .
+
+   1.d) align-self is the overrides the alingn-items.
+
+   1.e) Width and height are  commonly-used box model  which is similar to flex-basis.
+
+  1.f)flex-flow :flow reverse nowrap this is the property with value.
+
+  1.g)
