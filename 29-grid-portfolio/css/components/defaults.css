@@ -34,29 +34,14 @@ img {
   border: 0;
 }
 
-<<<<<<< HEAD
 main ul {
    display: grid;
-   text-align: center;
-   grid-row: 4rem;
-   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: repeat(6, 1fr);
+
 }
 
 
 
-
-
-
-
-
-
-
-
-
-=======
 h1,
 h2,
 h3 {
@@ -66,4 +51,3 @@ h3 {
 abbr {
   text-decoration: none;
 }
->>>>>>> e9ceb264b274d966d09a96124bd276030b4a437a

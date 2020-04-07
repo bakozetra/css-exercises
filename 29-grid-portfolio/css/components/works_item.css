@@ -4,6 +4,8 @@
 
 .works_item_header {
   color: #ccc;
+  display: inline-grid;
+  grid-auto-columns: min-content;
 }
 
 .works_item_content {
@@ -11,7 +13,8 @@
 }
 
 .works_item_image_container {
-
+  display: grid;
+  grid-area: 1 / col4-start / last-line / 6;
 }
 
 .works_item_navigation ul {

@@ -14,6 +14,8 @@
 */
 .gallery li {
 
+
+
 }
 
 /*
@@ -32,7 +34,8 @@
 }
 
 .gallery figure {
-
+ display: grid;
+ margin: 0 0 30px 15px;
 }
 
 .gallery img {
