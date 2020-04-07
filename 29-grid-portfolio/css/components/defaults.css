@@ -31,3 +31,25 @@ main > header {
   padding: 0;
   border: 0;
 }
+
+main ul {
+   display: grid;
+   text-align: center;
+   grid-row: 4rem;
+   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+
+
+
+
+
+
+
+
+
+
+

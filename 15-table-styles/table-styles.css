@@ -1,0 +1,26 @@
+/*
+1)- table-layout: auto or fixe
+- border-spacing: one or two length (2px)
+- border-collapse:collapse and separate
+- caption-side: top and bottom
+- empty-cells:hide and show
+
+*/
+/*
+ 2) -The html element which is correspond to :
+- table: <table>
+- table-row-group: <tbody>
+- table-header-group: <thead>
+- table-footer-group: <tfoot>
+- table-row: <tr>
+- table-cell: <td> <th>
+- table-column-group: <colgroup>
+- table-column: <col>
+- table-caption: <caption>
+*/
+/*3)a) We have to make sure that the table are using separate in border-collapse.If we use collapse in border collapse there will not be an affection in the table .
+b)We do not have
+-c) i)auto:Browsers use an automatic table layout algorithm. The column width is set by the widest unbreakable content in the cells. The content will dictate the layout
+     ii)fixe: The table and column widths are set by the widths of table and col or by the width of the first row of cells.
+d)We can use border-spacing on non-table elements if you put display:table in css.
+e)- Empty-cell can not work if the boder-collapse:collapse so before yuo going to use empty-cells please make sure hthat you are not using collapse value.  */

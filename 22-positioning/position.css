@@ -1,0 +1,29 @@
+/*
+1) The default value of position is static
+
+2) We have to use top ,right,left,bottom,(width,height)
+
+3)The `position` still maintains a box in the flow of the document is sticky.
+
+4)Fixed positioning is a special from of  absolute
+
+position:fixed is to fixe the viewport and It is out of the flow of the rest of the document.
+ We should be careful with fixe thougg because it takes the element out of the document flow.
+position:sticky  is scrolls along like anything else until it reaches the offset that you set
+
+5)The element is positioned relative to its first positioned (not static) ancestor element.
+
+6)
+
+
+  7)absolutely positioned descendants ,it gives you control that me
+ An element with position: absolute; is positioned relative to the nearest positioned ancestor
+ (instead of positioned relative to the viewport, like fixed).
+  However; if an absolute positioned element has no positioned ancestors,
+  it uses the document body, and moves along with page scrolling.
+
+  8)
+
+  9)A stacking context is created when an element is positioned and assigned a z-index value other than auto , or when an element has an opacity value less than 1.
+
+  */

@@ -4,7 +4,7 @@
   'inherit' will use the same value as the parent element has for that property. The background colour
   of the div element is white, because the background-color property is set to white.*/
 /*
-Here below is a list without the aural-oriented properties, now including CSS3 properties.
+   2 Here below is a list without the aural-oriented properties, now including CSS3 properties.
 border-collapse.
 border-spacing.
 caption-side.
@@ -15,7 +15,7 @@ empty-cells.
 font-family.
 
 */
-/*currentColor is useful when you want a certain color to be consistent in an element.
+/*   3 currentColor is useful when you want a certain color to be consistent in an element.
 For example, if you want an element to have a border color that’s the same as the element’s text color,
 using currentColor makes
  a lot of sense because then if you decide the main text color you can change the value at only one place*/

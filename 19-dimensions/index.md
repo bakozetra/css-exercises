@@ -24,7 +24,7 @@ Now let's see if we can answer these questions.
 
 Lastly, imagine the following scenario:
 
-```
+
 div {
   min-width: 20rem;
   max-width: 80vw;
@@ -33,3 +33,4 @@ div {
 
 - What are all the significant or interesting characteristics of this ruleset?
 - What is the implied `width` of a `div`?
+

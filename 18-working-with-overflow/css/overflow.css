@@ -12,12 +12,15 @@
 }
 #overflow_scroll div .example{
   overflow: scroll;
+
 }
 #clipping_circle div img {
   clip-path: circle(10% at 64.5% 25%);
 }
 #clipping_poly div img{
   clip-path:polygon( 152% 0, 136% 101%, 53% 50%);
+  width: 12rem;
+  height: 12rem;
 }
 
 #overclip div img{

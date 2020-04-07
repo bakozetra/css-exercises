@@ -1,0 +1,149 @@
+/*<section>
+        <header>
+          <h2>Row-based layouts</h2>
+          <p>
+            Let's build a form layout using floats, like this example:
+          </p>
+          <p>
+            <img src="images/form-layout.png" alt>
+          </p>
+        </header>
+        <div class="example">
+          <form action="#" method="POST">
+            <header>
+              <h3>Tell us about your last job</h3>
+            </header>
+
+            <div class="form_toolbar">
+              <button type="submit" name="action" value="skip">Skip</button>
+            </div>
+
+            <div class="form_row">
+              <label for="field_title">Title</label>
+              <div class="field">
+                <input type="text" name="title" id="field_title">
+              </div>
+            </div>
+
+            <div class="form_row">
+              <label for="field_company">Company</label>
+              <div class="field">
+                <input type="text" name="company" id="field_company">
+              </div>
+            </div>
+
+            <div class="form_row_group">
+              <div class="form_row">
+                <label for="field_start_date">Start date</label>
+                <div class="field">
+                  <input type="date" name="start_date" id="field_start_date">
+                </div>
+              </div>
+              <div class="form_row">
+                <label for="field_end_date">End date</label>
+                <div class="field">
+                  <input type="date" name="end_date" id="field_end_date">
+                </div>
+              </div>
+            </div>
+
+            <div class="form_row form_actions">
+              <button type="submit" name="action" value="save">Save</button>
+            </div>
+*/
+
+
+
+/*section:nth-of-type(4) form label{
+  float: left;
+  line-height: 39px;
+  text-align:center;
+}*/
+/*
+.form_row label{
+  float: left;
+  line-height: 39px;
+  width: 9rem;
+  text-align: right;
+  margin-inline-end: 1rem;
+}
+
+section:nth-of-type(4) header {
+ float: left;
+ margin: 0;
+  }
+
+.form_row{
+   clear: left;
+}
+
+section:nth-of-type(4) form input{
+  margin-block-end: 2rem;
+
+}
+
+section:nth-of-type(4) form div{
+  margin-inline-start: 5rem;
+}
+
+section:nth-of-type(4) form .form_row_group{
+ margin-inline-start:auto ;
+}
+
+section:nth-of-type(4) form button{
+   margin-inline-start: 10rem ;
+   text-align: center;
+}
+
+ /*section:nth-of-type(4)  label[for="field_title"]{
+     margin-inline-start: 2.5rem;
+}*/
+
+
+
+/*section:nth-of-type(4) div.form_row .field{
+margin-inline-start: 1rem;
+
+}
+
+section:nth-of-type(4) div >l{
+
+  float: left;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+*/
+
+section:nth-of-type(4) .example .form_toolbar{
+  float:right;
+ line-height: 4rem;
+
+}
+
+section:nth-of-type(4) .example header {
+  float: left;
+  margin: 0;
+
+}
+
+.form_row {
+  clear: left;
+}
+.form_row label{
+  float: left;
+  line-height: 39px;
+  width: 9rem;
+  text-align: right;
+  margin-inline-end: 1rem;
+}
+
+section:nth-of-type(4) form button{
+  margin-inline-start: 10rem ;
+  text-align: center;
+}
+
+section:nth-of-type(4) form input{
+  margin-block-end: 2rem;
+
+}

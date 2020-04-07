@@ -1,16 +1,20 @@
 /*
-the special element is ::first-line and if  we use this element <p> is the speciale element.
+the special property in pseudo-element is content propertie */
+/*The CSS :before and :after pseudo-elements specify the location of content before and after an element's document tree content. The content property, in conjunction with these pseudo-elements, specifies what is inserted.*/
+/*
+font properties
+color properties
+background properties
+word-spacing
+letter-spacing
+text-decoration
+vertical-align
+text-transform
+line-height
+clear*/
+/*
+Pseudo-element allow you create/define elements which are not on the DOM. They allow you style a specific part of an element's content. Pseudo-elements have no element type as far as the document language is concerned because, simply they don't exist in the DOM. And can only be created using CSS.Nov 14, 2018
 */
-
-
-
-
-
-
-
-
-
-
 
 
 /*To use a CSS counter, it must first be initialized to a value with the counter-reset property (0 by default). The same property can also be used to change its value to any specific number.
@@ -32,3 +36,7 @@ list-style-type	Specifies the type of list-item marker
 Anything added to the <ol> or <ul> tag, affects the entire list, while properties added to the <li> tag will affect the individual list items
 */
 /*there are two type of bullet style :list-style-tipe and list style*/
+/*it can  be a list like div */
+/*correction*/
+/*
+1 content is the speciale property bin css  */

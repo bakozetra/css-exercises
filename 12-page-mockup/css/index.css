@@ -7,9 +7,11 @@
 /* The handling of links for the site nav */
 @import "nav.css";
 
+/*The background  image */
+@import "masthead.css";
+
 /* Layout, and sizing of the post summaries */
 @import "posts.css";
-
 /* Decorative links that look like buttons */
 @import "buttons.css";
 

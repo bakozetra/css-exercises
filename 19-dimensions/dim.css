@@ -1,0 +1,22 @@
+/* 1) The default values for these properties
+   -width: auto
+     -height:auto
+     -min-width:0
+     -max-width: none
+     -min-height:0
+     -max-height:none
+   2)
+
+  3) The min-width property has no effect  because the value of min-width  prevents the values of the property.
+
+ 4) This prevents the value of the width property from becoming smaller than min-width .
+
+ 5) If a `max-width` value is less than a `width` value,the max-width has not affect in the content ,width's value
+ automatically applies  in the content .
+
+ 6)The text becames overflow.
+ 7)A percentage  is  absolute length,is calculated with respect to the height of the generated box's containing block
+   A percentage height on the root element is relative to the initial containing block.
+
+8)the significant or interesting characteristics of this ruleset is if the min-width is  greater  than max-width the content applies the high values .
+9) the implied `width` of a `div`is the min-width because it follows  the high value.

@@ -11,8 +11,6 @@ body > header h1 {
   margin: 0;
   font-size: 2rem;
 
-
-
 }
 
 body > header a {
@@ -24,6 +22,14 @@ body > header a {
 
 }
 
+header ul{
+
+  display: inline-grid;
+  color: black;
+  grid-template-rows: repeat(5,1fr);
+  margin: 2rem;
+
+}
 
 
 

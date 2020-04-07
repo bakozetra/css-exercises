@@ -1,0 +1,17 @@
+/*
+1)One column a  grid have by default.
+
+2)The difference between flexbox and grid:-flexbox was for one dimension like row or column
+                                          -grid was for two-dimentional like row and column at the same time.
+
+3)I would like to use flexbox than grid because I can control a single dimenson  row or column andThe justify-content property determines how the extra space of the flex-container
+ is distributed to the flex-items,
+ but for grit I can not do that because grid arranges multiple row and column .
+
+ 4)I would like to se grid  because it is the best for arranging elements in multiple rows and columns.
+
+ 5)  grid-template-columns: repeat(4, 10rem); this is the more concise way to write grid .
+
+ 6)we are using minmax.
+
+*/

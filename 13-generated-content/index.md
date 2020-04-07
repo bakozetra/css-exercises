@@ -3,7 +3,7 @@
 ## Pseudo-elements
 
 Sometimes we don't have an appropriate element, or child elements to work with. We could use *pseudo-elements* instead!
-
+ What are counters useful for?
 But for a pseudo-element to work we need a special property set for the element…
 
 - Do you know what that special property is?
@@ -17,7 +17,7 @@ Some generated content can include counters.
 
 - How do we *count* in CSS - i.e. what declaration do we use?
 - How do we reset a counter?
-- What are counters useful for?
+-
 
 ## Lists
 

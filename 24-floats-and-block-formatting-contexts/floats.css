@@ -1,0 +1,42 @@
+/*
+What are their default values?
+1. What are the possible values for `clear`?
+1. What is the rule associated with a floated item in terms of source order?
+1. Can you float other elements besides images?
+1. Is there a way to create a two-column layout with floats?
+*/
+
+/*
+  1.defaults values :-float:none
+                     -clear:none
+
+  2.Right , lift  and both are possible values for clear.
+
+  3.The rule associated width a floated item in terms of source order is clear .
+    the float item must come first to other .
+
+
+  4. yes we can.
+
+  5. yes there is a way to create a two-column layout with floats .
+
+  /*
+1. Describe in your own words what BFC is all about.
+1. We can 'clear' a float by creating a block formatting context on the parent,
+this is achieved by putting a certain set of properties on the container. What are those properties?
+1. Will you forget about Block Formatting Contexts tomorrow?
+
+  */
+
+/*1.BFc is a block formatting context which can  stop the content wrapping floats .
+BFC is a part of a visual CSS rendering of web page .
+It contains  float element  ,clear  and ect.
+BFC are  really important for positioning of float .
+a methodologie  and set of rule for how the box behave  ex   stop the content wrapping floats.
+Set of rules for how the container containes element on it .
+
+2.Those properties are position:absolute
+
+3.
+
+

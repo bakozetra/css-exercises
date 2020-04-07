@@ -1,0 +1,34 @@
+.container > img:nth-child(1) {
+       float: left;
+       margin: 2rem;
+}
+
+.container p + img {
+       float:right;
+ margin: 2rem;
+}
+
+
+section:first-of-type .container img + p + img + p{
+  clear: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
