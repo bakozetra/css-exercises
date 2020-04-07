@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 header  nav >  ul{
    display: grid;
    color: black;
    grid-template-columns: repeat(5,1fr);
    background-color:aqua;
 }
+=======
+@import "components/defaults.css";
+@import "components/header.css";
+@import "components/headings.css";
+@import "components/about.css";
+@import "components/footer.css";
+>>>>>>> e9ceb264b274d966d09a96124bd276030b4a437a

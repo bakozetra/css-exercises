@@ -8,9 +8,11 @@ html {
 
 body {
   font-size: 100%;
-  margin: 0;
+  margin-block-start: 30px;
+  margin-block-end: 20px;
   margin-inline-start: 45px;
-  max-width: 960px;
+  margin-inline-end: 45px;
+  max-width: 945px;
 }
 
 figure {
@@ -21,7 +23,7 @@ img {
   max-width: 100%;
 }
 
-main > header {
+.a11y {
   position: absolute;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
@@ -32,6 +34,7 @@ main > header {
   border: 0;
 }
 
+<<<<<<< HEAD
 main ul {
    display: grid;
    text-align: center;
@@ -53,3 +56,14 @@ main ul {
 
 
 
+=======
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+abbr {
+  text-decoration: none;
+}
+>>>>>>> e9ceb264b274d966d09a96124bd276030b4a437a
