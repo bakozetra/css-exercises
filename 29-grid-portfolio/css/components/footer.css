@@ -19,7 +19,7 @@ body > footer a:hover {
 }
 
 body > footer p:last-child {
-
+  grid-column-start: 6;
 }
 
 body > footer p:last-child a {
