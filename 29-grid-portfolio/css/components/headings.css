@@ -17,6 +17,7 @@
   padding-bottom: 0.75rem;
   border-block-end: 1px solid #4d4d4d;
   line-height: 1;
+  grid-column: 2 / 3;
 }
 
 .heading_accent {

@@ -1,26 +1,30 @@
 .works_item {
+  display: grid;
+  grid-template-columns: repeat(6,145px);
+  column-gap: 15px;
 
 }
 
 .works_item_header {
   color: #ccc;
-  display: inline-grid;
-  grid-auto-columns: min-content;
 }
 
 .works_item_content {
+grid-column: 2 / 7;
 
 }
 
 .works_item_image_container {
-  display: grid;
-  grid-area: 1 / col4-start / last-line / 6;
+
 }
 
 .works_item_navigation ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+
 }
 
 .works_item_navigation a {
