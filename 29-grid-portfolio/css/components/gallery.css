@@ -7,6 +7,10 @@
   margin: 0;
   margin-block-start: 0.75rem;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6,145px);
+  column-gap: 15px;
+  row-gap: 30px;
 }
 
 /*
@@ -27,6 +31,7 @@
   text-decoration: none;
   font-weight: 700;
   font-size: 0.75rem;
+
 }
 
 .gallery a:hover {
@@ -34,8 +39,8 @@
 }
 
 .gallery figure {
- display: grid;
- margin: 0 0 30px 15px;
+
+
 }
 
 .gallery img {

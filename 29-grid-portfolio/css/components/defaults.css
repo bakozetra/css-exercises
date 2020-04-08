@@ -34,14 +34,6 @@ img {
   border: 0;
 }
 
-main ul {
-   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-
-}
-
-
-
 h1,
 h2,
 h3 {
