@@ -1,3 +1,37 @@
 .about {
+  display: grid;
+  grid-template-columns: repeat(6,145px);
+  column-gap: 15px;
 
+}
+.about_header {
+  grid-column-start: 1;
+  margin-block-start: 1.3rem;
+}
+
+ img{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  margin-block-start: 1.3rem;
+}
+
+
+
+ div {
+  grid-column-start: 4;
+  grid-column-end: 7;
+ }
+
+ footer {
+  display: grid;
+  grid-template-columns: repeat(6,145px);
+  column-gap: 15px;
+
+ }
+ footer > p:nth-child(1){
+  grid-column-start: 1;
+ }
+
+ body > footer p:last-child {
+  grid-column-start: 6;
 }
