@@ -1,4 +1,5 @@
 .post {
+ display: grid;
 
 }
 
@@ -11,6 +12,11 @@
 }
 
 .post_content {
+
+
+}
+
+.post_content .image_full {
 
 }
 

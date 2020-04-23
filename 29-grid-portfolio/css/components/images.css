@@ -1,7 +1,17 @@
 .image_full {
-
+  display: grid;
+grid-template-columns: repeat(6,145px);
+column-gap: 15px;
+  grid-column-start: 3;
+  grid-column-end: 7;
 }
 
 .image_half {
-
+ width: calc ((3 * 145px) + (2 * 15px));
+ margin-inline-end: 30px;
+float: left;
+}
+.post :nth-of-type(odd){
+   width: calc ((2 * 145px) + (1 * 15px));
+   margin-inline-end: 15px;
 }
