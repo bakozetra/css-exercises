@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+:root{
+--margin:2;
+
+}
+li:nth-of-type(4){
+  background-color: aqua;
+  padding: var(--margin);
+  width:  calc(2 + 3 * 4);
+
+}
+li:nth-of-type(1){
+  background-color:brown;
+  padding: calc(var(--margin)*1);
+  width: calc(var(--margin)* 30px);
+}
+
+</style>
+<body>
+<div>
+   <nav>
+     <ul>
+       <li>
+       chair
+       </li>
+       <li>
+      table
+      </li>
+      <li>
+      pen
+      </li>
+      <li>
+     copy book
+      </li>
+     </ul>
+   </nav>
+</div>
+</body>
+</html>
