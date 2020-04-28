@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  button{
+    background-color: rgba(0, 0, 255, 1);
+    padding: 1rem;
+    margin: 1rem;
+   transition-property: all;
+   transition-duration: 2s;
+   transition-property: background-color;
+   width: 100px;
+   border-radius: 0.5rem;
+   border-inline-start: 0.125rem solid rgb(50, 50, 255);
+   border-inline-end: 0.125rem solid rgb(50, 50, 255) ;
+   border-block-end:  0.25rem solid rgb(50, 50, 255);
+   position: relative;
+   left: 0;
+   right: 0;
+  }
+  button:hover,
+  button-focus{
+    background-color: rgba(0, 0, 255, 0.5);
+  }
+  button:active {
+      border-width: 11px;
+      padding-inline-end: 17px;
+      border-block-end:11px;
+    }
+
+  }
+</style>
+<body>
+ <div>
+   <button> Log in </button>
+  </div>
+</body>
+</html>
