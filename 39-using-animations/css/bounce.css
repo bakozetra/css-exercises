@@ -22,5 +22,69 @@
   background-position:
     50% -25px,
     50% 50%;
-  background-repeat: no-repeat;;
+  background-repeat: no-repeat;
+  animation-name: ball;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation: 2s linear 2s alternate-reverse infinite ball;
+
+
 }
+/*@keyframes ball {
+  0%{
+    top: 0%;
+  }
+  50%{
+    width: 120px;
+		height: 40px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		-webkit-transform: translateY(170px);
+		        transform: translateY(170px);
+  }
+
+    100% {
+      top:80%;
+      bottom: 0;
+
+    }
+  }*/
+
+  @keyframes ball {
+    0% {
+      top: 0;
+    }
+
+
+  60%{
+   top:50%;
+ }
+
+  95% {
+      width: 120px;
+      height: 40px;
+    }
+
+  100% {
+    top:80%;
+    bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -88,6 +88,20 @@
   height: 200px;
   width: 370px;
   z-index: calc(var(--middle-z-index) + 1);
+  animation: ease-in;
+  animation-name: scissors;
+  animation-duration: 2s;
+  animation: linear scissores;
+}
+@keyframes scissors {
+  from {
+   margin-inline-start: 40px;
+   transform: translateX(40px);
+  }
+  to{
+ margin-left: 40px;
+ transform: translate(40px);
+  }
 }
 
 #scissors-pivot {
