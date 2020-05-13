@@ -21,3 +21,13 @@ How many font-face blocks do we need to provide if we want to support all the ch
 7. If we chose to offer WOFF2 as well as WOFF, what syntax would we use? How many files would we have, according to question 5?
 8. Most of our users would probably have the exact font we want to serve already installed on their devices. How can we make sure the user's browser doesn't download the fonts they might already have?
 9. Sometimes we have to assign fallback fonts
+
+1) Name of font formats : -"cvg", "eot"
+2) "WOFF1" is the good  to use in all browsers .
+3)difference between to  @font-face and @keyframes:
+
+4)That means download file from the browser.
+
+5) there are two font-face  bloks.
+
+6)
