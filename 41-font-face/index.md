@@ -23,12 +23,40 @@ How many font-face blocks do we need to provide if we want to support all the ch
 9. Sometimes we have to assign fallback fonts for our custom webfonts we add via `@font-face`. What are some things to keep in mind when it comes to selecting these fallback fonts?
 10. The browser can use one of several strategies for loading the fonts, e.g. showing nothing until the font is downloaded, or using a fallback font first. What property can we use to help the browser decide on which strategy to use?
 
-1) Name of font formats : -"cvg", "eot"
+1) Name of font formats : -"cvg", "eot","otf"
+
 2) "WOFF1" is the good  to use in all browsers .
-3)difference between to  @font-face and @keyframes:
 
-4)That means download file from the browser.
+ there are  no name on it and we need to use scr(font-face)
+ this only  hve one curly bracket on it .
+ It  is combinasion of font property.
 
-5) there are two font-face  bloks.
+4)That means download file from the browser.we have to buy if we want to use the font-face because it is not free.
 
-6)
+5) there are two font-face  blocks. there are 8 file.
+
+
+6)  we have to use 160 Kb .
+
+
+ 7) we need  to use font-family , font-weight ,16 file we have to use for it . because we have to use it woof1 and woof2 .(8 file bt it  is times to)
+ syntax we use scr : url()format(),
+                 url()format();
+   we have to put woof2 first becausse it is the choosen .
+
+ 8) We have to use  local function , or system name .Local(systeme name)
+
+ 9)we have to use
+  "roboto", arial ,helvetica,sans-serif;
+  we have to use  same characteristic of the property we are going to use .
+
+
+ 10)1 -Renders
+      -fallback
+      -font
+      -first
+
+    2 -black until downloaded it .
+    name of 1 ,2 font-display .or fallback, swap , optional.
+
+
