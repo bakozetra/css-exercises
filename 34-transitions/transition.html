@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+   div{
+   width: 50px;
+   height: 40px;
+   border-radius: 100px;
+   transition: all 2s;
+   transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+   }
+
+
+  p:nth-of-type(1){
+    background-color: aqua;
+    color: red;
+    transition-delay: 2s;
+    border-radius: 100px;
+  }
+  p:nth-of-type(2){
+    background-color:brown;
+    color:white;
+    transition-delay: 3s;
+
+
+
+  }
+  p:nth-of-type(3){
+    background-color:forestgreen;
+    color:yellow;
+    transition-delay: 4s;
+  }
+  button{
+    background-color:slategray;
+    color:yellow;
+   transition: step-start;
+  }
+</style>
+<body>
+  <div>
+    <p>
+      Cats
+    </p>
+    <p>
+     Lion
+    </p>
+    <p>
+      dog
+    </p>
+<p>
+    <button>run</button>
+  </p>
+  </div>
+
+</body>
+</html>

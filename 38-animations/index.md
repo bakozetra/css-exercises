@@ -13,3 +13,37 @@ Let's do some research:
 1. How many properties can we animate at once?
 1. What properties are animatable?
 
+ 1)It is starting with  @Keyframe ,name of animation ,{} ,from ,to .
+
+ 2)It is different to other css because it has to start in 0% and until what we want and then we  need more soacific also . we can combine many element at the same time .
+ can not use bracket,can not have querry.
+
+ 3)We use animation-name,animation-duration ,default of animation 0. 
+
+ 4) Keyframe' s keywords from and to or 0% till 100% .revers,altern,infinite,alternate-reserve,pause ,running . 
+
+ 5)  we can use :
+ we can use as many as you want.
+   - animation-name: ;
+   - animation-duration:; 
+   - animation-timing-function:; 
+   - animation-delay:;
+   - animation-direction: ;
+   - animation-iteration-count: ;
+   - animation-fill-mode: ;
+   - animation-play-state: ; 
+
+6 ) 
+
+
+
+
+
+
+
+
+
+
+
+
+

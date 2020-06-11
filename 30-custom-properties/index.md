@@ -13,3 +13,17 @@ So, to get started, let's do some research:
 1. There are several ways to override or change a Custom Property. Can you name at least 3?
 1. Why are Custom Properties useful?
 1. What is the only aspect (or part) of CSS syntax that we can use Custom Properties for?
+
+1 a)We need to use Hyphen (-) and underscore (_) and then name  numbers .
+1 b)We can not use space and period(full stop).
+1 c)The possible value can assign to a new custom property name is number, keywords.
+1 d) :root  or html are useful because  they can be  applied globally across your HTML document(if want to inherit to all the property).it is not  good to use root or html if you want to spicify  your custom property.
+1 e)
+1 f)there are several ways to override .Three example :--change-me
+                                                       @media[]
+                                                       calc
+
+                                                       --row-display
+1 g)Custom Properties are useful because it helps to avoid repeating .reduce repetition,we write less code(simple),I point of control(om point of variable)there arre 4 button and you want to touch the button and that is the one point of control
+
+1 h)declaration block is only aspect of css syntax .
