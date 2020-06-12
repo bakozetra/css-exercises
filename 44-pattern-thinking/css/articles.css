@@ -3,96 +3,112 @@
 }
 
 /* Setup */
-.example > article {
+
+.example>article {
   font-weight: 700;
   text-align: center;
 }
 
-.example > article > * {
+.example>article>* {
   background-color: rgba(var(--article-elem-color), var(--article-bg-transparency));
   color: #fff;
   padding: 1rem;
 }
 
-.example > article > * * {
+.example>article>* * {
   margin: 0;
   background-color: inherit;
   line-height: 1;
   padding: 1rem;
 }
 
-.example > article > header {
+.example>article>header {
   --article-elem-color: 63, 63, 191;
 }
 
-.example > article > header > h2 {
+.example>article>header>h2 {
   font-size: 1rem;
 }
 
-.example > article > .content {
+.example>article>.content {
   --article-elem-color: 63, 191, 63;
 }
 
-.example > article > footer {
+.example>article>footer {
   --article-elem-color: 191, 63, 63;
 }
 
 /* 1 */
+
 [data-example="1"] {
- padding: 0;
- border: black 1rem solid;
- justify-content: stretch;
- margin-bottom: 1rem;
+  padding: 0;
+  border: black 1rem solid;
 }
-[data-example="1"] > article >  header {
+
+[data-example="1"]>article>header, [data-example="1"]>article>header+.content {
   margin-bottom: 1rem;
-
 }
 
-[data-example="1"] > article >  header + .content {
-  margin-bottom: 1rem;
-
-}
-[data-example="1"] > article >  header > h2 {
-  margin-block-end: 0.25rem;
-  margin-block-start: 0.25rem;
-  margin-inline-end: 4rem;
-  margin-inline-start: 4rem;
-}
-[data-example="1"] > article >  header + .content > p,
-[data-example="1"] > article >  header > h2,
-[data-example="1"] > article >  header +.content + footer > p {
- margin-inline-start: 4rem 4rem;
- margin-block-end: 0.25rem;
- margin-block-start: 0.25rem;
- margin-inline-end: 3rem;
- margin-inline-start: 3rem;
-
+[data-example="1"]>article>header,
+ [data-example="1"]>article>header+.content,
+  [data-example="1"]>article>header+.content+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+[data-example="1"]>article>header+.content>p,
+ [data-example="1"]>article>header>h2,
+  [data-example="1"]>article>header+.content+footer>p {}
 
 /* 2 */
 
 [data-example="2"] {
   display: grid;
-    grid-auto-columns: repeat(2,1fr);
-    grid-template-columns: repeat( 2,1fr);
-    row-gap: 1rem;
-    padding: 0;
+  grid-auto-columns: repeat(2, 1fr);
+  grid-template-columns: repeat( 2, 1fr);
+  row-gap: 1rem;
+  padding: 0;
+  border: 1rem black solid;
 }
+
 [data-example="2"] > article {
- display: contents;
- grid-template-rows: repeat(3,1fr);
- row-gap: 2rem;
+  display: contents;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 2rem;
 }
 
 [data-example="2"] > article > header,
-[data-example="2"] > article > header + div,
-[data-example="2"] > article > header + div + footer {
+ [data-example="2"] > article > header + div,
+  [data-example="2"]>article>header+div+footer {
   grid-column: 1/3;
 }
+[data-example="2"] > article > header > h2,
+[data-example="2"] > article > header + div > p,
+[data-example="2"]>article>header+div+footer > p {
+   display: inline-block;
 
+}
 /* 3 */
-[data-example="3"] {
 
+[data-example="3"] {
+  display: flow-root;
+  padding: 0;
+  border: 1rem black solid;
+}
+
+
+[data-example="3"] > article > header > h2,
+[data-example="3"] > article > header + div > p,
+[data-example="3"]>article>header+div+footer > p  {
+  display: inline-block;
+}
+
+[data-example="3"]>article>header+div+footer {
+  margin: 0;
+  display: block;
+}
+[data-example="3"] > article > header > h2,
+[data-example="3"] > article > header + div > p {
+   margin-block-end: 1rem;
 }
