@@ -26,11 +26,11 @@
   --article-elem-color: 63, 63, 191;
 }
 
-.example>article>header>h2 {
+.example > article > header > h2 {
   font-size: 1rem;
 }
 
-.example>article>.content {
+.example > article > .content {
   --article-elem-color: 63, 191, 63;
 }
 
@@ -56,10 +56,6 @@
   flex-direction: column;
   align-items: center;
 }
-
-[data-example="1"]>article>header+.content>p,
- [data-example="1"]>article>header>h2,
-  [data-example="1"]>article>header+.content+footer>p {}
 
 /* 2 */
 
@@ -108,7 +104,7 @@
   margin: 0;
   display: block;
 }
-[data-example="3"] > article > header > h2,
-[data-example="3"] > article > header + div > p {
+[data-example="3"] > article > header,
+[data-example="3"] > article > header + div {
    margin-block-end: 1rem;
 }

@@ -14,15 +14,40 @@
 
 /* 4 */
 [data-example="4"] {
+ display: flex;
+ align-items: center;
 
+}
+[data-example="4"] > div {
+    display: flex;
+   flex-grow:  1;
+
+
+}
+
+[data-example="4"] > div > p {
+ margin: auto;
 }
 
 /* 5 */
 [data-example="5"] {
-
+ display: grid;
+ grid-template-columns: 100%;
+ justify-content: center;
+ align-items: center;
+}
+[data-example="5"] .centred {
+  display: grid;
+  justify-content: center;
 }
 
 /* 6 */
-[data-example="6"] {
-
+[data-example="6"] > div {
+  margin-block-start: 40px;
 }
+[data-example="6"] > div > p {
+  margin-inline-start: inherit;
+  inline-size: max-content;
+  margin: auto;
+}
+
